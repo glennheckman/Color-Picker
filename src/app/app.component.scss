@@ -1,0 +1,35 @@
+
+.the-color{
+  width:400px;
+  height:200px;
+  border: solid 1px black;
+  margin:20px;
+  display:block;
+}
+
+
+.color-picker{
+  width:100px;
+  height:100px;
+  display:inline-block;
+  margin: 10px;
+  cursor: pointer;
+
+  &:hover{
+    border-radius:20px;
+  }
+}
+
+.red{
+  background-color:red;
+}
+
+
+.green{
+  background-color:green;
+}
+
+
+.blue{
+  background-color:blue;
+}
